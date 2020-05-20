@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+/*General*/
+section{
+    position: relative;
+    background: #f8f8f8;
+}
+/*Flex*/
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: space-between;
+    align-items: center;
+}
+.inline-block{
+    display: inline-block;
+}
+.space{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Componentes*/
+div{
+   display: block; 
+}
+nav, li{
+    padding: 5px;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+nav{
+    margin-left: -110px;
+}
+h1{
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 4rem;
+    color:#282828;
+}
+h2{
+    font-size: 24px;
+    letter-spacing: 6px;
+    text-align: center;
+    color:#282828;
+    padding-bottom: 5px;
+}
+h3{
+    font-weight: 300;
+    text-align: center;
+    color:#282828;
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+h4{
+    text-align: center;
+    color:#282828;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    line-height: 34px;
+    color: #5d5d5d;
+    text-align: center;
+}
+/*Llaves*/
+.logo{
+    height: 100px;
+    width: 100px;
+    background: #f8f8f8;
+    border: solid 2px black;
+    border-radius: 20px 20px;
+    box-shadow:10px 10px 10px 5px black;
+    padding: 5px;
+    margin-top: 10px;
+}
+.column{
+    width:25%;
+    height: 280px;
+    padding: 2rem;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.padding{
+    padding:5%;
+}
+.margin{
+    margin-top: 60px;
+}
+.i{
+    font-size: 16px;
+    padding-right: 5px;
+}
+.i2{
+    height: 10px;
+    width: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.col-md-4{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    width: 33.333%;
+}
+.btn{
+    background-color: white;
+    padding: 1px 45px 0 45px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3.5px;
+    border-radius: 0;
+    color: #111111;
+    border: solid 1px #111111;
+}
+.heading{
+    font-size: 24px;
+    letter-spacing: 6px;
+}
+.center{
+    text-align: center;
+}
+.padding2{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.bottom{
+    margin-bottom: 20px;
+}
